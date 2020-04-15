@@ -1,11 +1,9 @@
 import React from 'react';
 import "./Navigation.css"
-// import { end } from 'worker-farm';
-// import { brown } from 'color-name';
+
 
 const Navi = () => {
     return (
-        // <section id="navigate">
         <div id="navigate">
             <nav className="navbar navbar-expand-lg navbar-light fixed-top" style={{ backgroundColor: "#ffffff" }}>
                 <a className="navbar-brand" href="#navigate" style={{ color: "#800000" }}>
@@ -17,9 +15,6 @@ const Navi = () => {
 
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav">
-                        {/* <li className="nav-item d-flex justify-content-end">
-                            <a className="nav-link" href="#navigate" style={{ color: "#800000" }}>Home <span className="sr-only"></span></a>
-                        </li> */}
                         <li className="nav-item d-flex justify-content-end">
                             <a className="nav-link" href="#about" style={{ color: "#800000" }}>About Me</a>
                         </li>
