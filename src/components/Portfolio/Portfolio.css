@@ -1,0 +1,25 @@
+hr {
+    width: 250px;
+    border-top: 4px solid brown;
+}
+
+.portfolio {
+    background-color: #eee;
+    /* margin: 100px; */
+}
+
+.container-portfolio {
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.thumbnail:hover {
+    position:relative;
+    top:-25px;
+    left:-35px;
+    width:500px;
+    height:auto;
+    display:block;
+    z-index:999;
+}
+
